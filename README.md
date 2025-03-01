@@ -3,7 +3,7 @@
 This is a simple Fabric mod that adds a `/heal` command to Minecraft, allowing players to heal themselves or others. This mod supports **single-player**, **integrated/LAN servers**, and **dedicated servers**.
 
 ## Command Usage
-```sh
+```
 /heal [<targets>] [<amount>]
 /heal [<amount>] [<targets>]
 ```
