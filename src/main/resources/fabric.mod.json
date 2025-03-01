@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "heal-command",
+	"version": "${version}",
+	"name": "Heal Command",
+	"description": "Adds /heal command. Defaults to self if no target is specified. Defaults to fully healing if no amount is specified. Plays nice with altered maximum healths.\n\n/heal [<amount>] [<targets>]\n/heal [<targets>] [<amount>]",
+	"authors": [
+		"SametHope"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/heal-command/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"samethope.healcommand.HealCommand"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
