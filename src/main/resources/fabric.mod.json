@@ -3,7 +3,7 @@
 	"id": "heal-command",
 	"version": "${version}",
 	"name": "Heal Command",
-	"description": "Adds /heal command. Defaults to self if no target is specified. Defaults to fully healing if no amount is specified. Plays nice with altered maximum healths.\n\n/heal [<amount>] [<targets>]\n/heal [<targets>] [<amount>]",
+	"description": "Adds /heal command. Defaults to self if no target is specified. Defaults to fully healing if no amount is specified. Plays nice with altered maximum healths.\n\n/heal [<targets>] [<amount>]\n/heal [<amount>] [<targets>]",
 	"authors": [
 		"SametHope"
 	],
