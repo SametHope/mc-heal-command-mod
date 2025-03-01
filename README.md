@@ -3,11 +3,6 @@
 ## Overview
 This is a simple fabric mod that adds a `/heal` command to Minecraft, allowing players to heal themselves or others. This mod supports **single-player**, **integrated/LAN servers**, and **dedicated servers**.
 
-### Features:
-- Heals players with the `/heal` command.
-- Works with modified maximum health values.
-- Requires **server-side installation only** (ignored on clients).
-
 ## Command Usage
 ```sh
 /heal [<targets>] [<amount>]
